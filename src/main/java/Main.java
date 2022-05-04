@@ -22,7 +22,7 @@ public class Main {
 
                 if (time < 0) {
                     timer.cancel();
-                    System.out.println("Time's up!");
+                    System.out.println("Time is up!");
                 }
             }
         }, 0, 1000);
